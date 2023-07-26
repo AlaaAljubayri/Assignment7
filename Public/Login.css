@@ -158,64 +158,34 @@ header
 
 /* ----------- SignUp -----------*/
 
-.btn
-{
-background: #1F494C;
-width: 100%;
-border-radius: 32px;
-color: #DFD6C3;
-}
-
 .card
 {
-    /* display: inline-flex; */
-    color: #DFD6C3;
-    /* height: 806px; */
-    float: center;
-    /* padding-left: 0px; */
-    /* width: 500px; */
-    /* padding: 39px 96px 55px 96px; */
-    /* flex-direction: column;
-    align-items: center; */
-    /* gap: 29px; */
-    flex-shrink: 0;
-    background: rgba(152, 43, 43, 0);
+    display: inline-flex;
+height: 806px;
+float: left;
+width: 500px;
+padding: 39px 96px 55px 96px;
+flex-direction: column;
+align-items: center;
+gap: 29px;
+flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.62);
 }
+
 
 .container
 {
-    /* display: inline-flex; */
+    display: inline-flex;
     /* height: 806px; */
-    /* float: left;
-    width: 500px; */
+    float: left;
+    width: 500px;
     /* padding: 39px 96px 55px 96px; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* gap: 29px; */
-    /* flex-shrink: 0; */
-    margin-top: 100px;
-    padding-right: 30px;
-    /* margin-left: 50px; */
-    width: 600px;
-    float: center;
-    background: rgba(0, 0, 0, 0.62);  
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+    flex-shrink: 0;
+        background: rgba(0, 0, 0, 0.62);  
 }
-
-
-.form-control
-{
-    background: rgba(0, 0, 0, 0); 
-    border:#DFD6C3 ; 
-    border-radius: 0px ;
-    border-style: none none solid none; 
-    color: #DFD6C3;
-}
-
-.form-group
-{
-    font-size: 20px;
-}
-
 
 
 
