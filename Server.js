@@ -20,6 +20,14 @@ app.get('/bestSeller',(req,res)=>
 app.get('/shopNow',(req,res)=>
 {res.sendFile(path.join(__dirname,'Public', 'ShopNow.html'));});
 
+//route for Login
+app.get('/login',(req,res)=>
+{res.sendFile(path.join(__dirname,'Public', 'Login.html'));});
+
+//route for Sign Up
+app.get('/signUp',(req,res)=>
+{res.sendFile(path.join(__dirname,'Public', 'SignUp.html'));});
+
 //start server
 app.listen(PORT,()=>
 {console.log(`Server is Running on http://localhost:${PORT}`);});
